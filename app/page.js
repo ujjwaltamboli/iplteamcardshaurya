@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Home() {
   return (
 
-    <div className="bg-red-600 h-screen flex justify-center">
+    <div className="bg-slate-600 min-h-full flex justify-center">
       <div className=" grid gap-1">
-      <div className="cards rounded-xl row-start-1 col-start-1 gap-8">
+      <div className="cards rounded-xl  md:col-start-1  col-start-1 row-start-1 gap-8">
         <div className="front1">
       
         <div className="relative">
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="cards rounded-xl row-start-1 col-start-2">
+      <div className="cards rounded-xl md:col-start-2 md:row-start-1 sm:row-start-1 sm:col-start-2 col-start-1 row-start-2">
         <div className="front1">
       
         <div className="relative">
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="cards rounded-xl row-start-1 col-start-3">
+      <div className="cards rounded-xl md:row-start-1 md:col-start-3 sm:row-start-2 sm:col-start-1 col-start-1 row-start-3">
         <div className="front1">
       
         <div className="relative">
@@ -137,7 +137,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="cards rounded-xl row-start-1 col-start-4">
+      <div className="cards rounded-xl md:row-start-1 md:col-start-4 sm:row-start-2 sm:col-start-2 col-start-1 row-start-4">
         <div className="front1">
       
         <div className="relative">
@@ -181,7 +181,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="cards rounded-xl">
+      <div className="cards rounded-xl md:row-start-2 md:col-start-1 sm:row-start-2 sm-col-start-2 col-start-1 row-start-5">
         <div className="front1">
       
         <div className="relative">
@@ -225,7 +225,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="cards rounded-xl">
+      <div className="cards rounded-xl md:row-start-2 md:col-start-2 col-start-1 row-start-6 sm:row-start-3 sm:col-start-1" >
         <div className="front1">
       
         <div className="relative">
@@ -269,7 +269,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="cards rounded-xl">
+      <div className="cards rounded-xl md:row-start-2 md:col-start-3 sm:row-start-3 sm:col-start-2 col-start-1 row-start-7">
         <div className="front1">
       
         <div className="relative">
@@ -313,7 +313,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="cards rounded-xl">
+      <div className="cards rounded-xl md:row-start-2 md:col-start-4 sm:row-start-4 sm:col-start-1 col-start-1 row-start-8">
         <div className="front1">
       
         <div className="relative">
@@ -357,7 +357,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="cards rounded-xl col-start-2 row-start-3">
+      <div className="cards rounded-xl md:col-start-2 md:row-start-3 sm:row-start-4 sm:col-start-2 col-start-1 row-start-9">
         <div className="front1">
       
         <div className="relative">
@@ -401,7 +401,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="cards rounded-xl col-start-3 row-start-3">
+      <div className="cards rounded-xl md:col-start-3 md:row-start-3 sm:row-start-5 sm:col-start-1 col-start-1 row-start-10">
         <div className="front1">
       
         <div className="relative">
