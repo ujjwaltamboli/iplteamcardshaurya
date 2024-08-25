@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
 
-    <div className="bg-slate-600 min-h-full flex justify-center">
+    <div className="bg-slate-600 min-h-screen flex justify-center">
       <div className=" grid gap-1">
       <div className="cards rounded-xl  md:col-start-1  col-start-1 row-start-1 gap-8">
         <div className="front1">
